@@ -1,0 +1,228 @@
+Test and build	Set up job	﻿2026-10-20T02:05:22.9537284Z Current runner version: '2.337.0'
+Test and build	Set up job	2026-10-20T02:05:22.9559684Z ##[group]Runner Image Provisioner
+Test and build	Set up job	2026-10-20T02:05:22.9560519Z Hosted Compute Agent
+Test and build	Set up job	2026-10-20T02:05:22.9561103Z Version: 20261012.601
+Test and build	Set up job	2026-10-20T02:05:22.9561636Z Commit: f3dc54e1fb89da6852db922499a0233137369e1d
+Test and build	Set up job	2026-10-20T02:05:22.9562235Z Build Date: 2026-10-12T17:48:21Z
+Test and build	Set up job	2026-10-20T02:05:22.9562894Z Worker ID: {6a4641b7-9e0e-4466-b64d-11061067b35b}
+Test and build	Set up job	2026-10-20T02:05:22.9563476Z Region: westus3
+Test and build	Set up job	2026-10-20T02:05:22.9563967Z Cloud: Azure
+Test and build	Set up job	2026-10-20T02:05:22.9564438Z ##[endgroup]
+Test and build	Set up job	2026-10-20T02:05:22.9565688Z ##[group]Operating System
+Test and build	Set up job	2026-10-20T02:05:22.9566558Z Ubuntu
+Test and build	Set up job	2026-10-20T02:05:22.9567005Z 24.04.5
+Test and build	Set up job	2026-10-20T02:05:22.9567470Z LTS
+Test and build	Set up job	2026-10-20T02:05:22.9567929Z ##[endgroup]
+Test and build	Set up job	2026-10-20T02:05:22.9568399Z ##[group]Runner Image
+Test and build	Set up job	2026-10-20T02:05:22.9568977Z Image: ubuntu-24.04
+Test and build	Set up job	2026-10-20T02:05:22.9569463Z Version: 20261012.334.1
+Test and build	Set up job	2026-10-20T02:05:22.9570312Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20261012.334/images/ubuntu/Ubuntu2404-Readme.md
+Test and build	Set up job	2026-10-20T02:05:22.9571817Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20261012.334
+Test and build	Set up job	2026-10-20T02:05:22.9572665Z ##[endgroup]
+Test and build	Set up job	2026-10-20T02:05:22.9573655Z ##[group]GITHUB_TOKEN Permissions
+Test and build	Set up job	2026-10-20T02:05:22.9575808Z Contents: read
+Test and build	Set up job	2026-10-20T02:05:22.9576475Z Metadata: read
+Test and build	Set up job	2026-10-20T02:05:22.9576936Z Packages: read
+Test and build	Set up job	2026-10-20T02:05:22.9577542Z ##[endgroup]
+Test and build	Set up job	2026-10-20T02:05:22.9579304Z Secret source: Actions
+Test and build	Set up job	2026-10-20T02:05:22.9580124Z Cache mode: write
+Test and build	Set up job	2026-10-20T02:05:22.9580883Z Prepare workflow directory
+Test and build	Set up job	2026-10-20T02:05:22.9938403Z Prepare all required actions
+Test and build	Set up job	2026-10-20T02:05:22.9979976Z Getting action download info
+Test and build	Set up job	2026-10-20T02:05:23.2803732Z Download action repository 'actions/checkout@v4' (SHA:11d5960a326750d5838078e36cf38b85af677262)
+Test and build	Set up job	2026-10-20T02:05:23.3699415Z Download action repository 'actions/setup-node@v4' (SHA:49933ea5288caeca8642d1e84afbd3f7d6820020)
+Test and build	Set up job	2026-10-20T02:05:23.5547812Z Complete job name: Test and build
+Test and build	Checkout	﻿2026-10-20T02:05:23.6144353Z ##[group]Run actions/checkout@v4
+Test and build	Checkout	2026-10-20T02:05:23.6145056Z with:
+Test and build	Checkout	2026-10-20T02:05:23.6145438Z   repository: Shiirevninj/my-first-project-
+Test and build	Checkout	2026-10-20T02:05:23.6148910Z   token: ***
+Test and build	Checkout	2026-10-20T02:05:23.6149270Z   ssh-strict: true
+Test and build	Checkout	2026-10-20T02:05:23.6149628Z   ssh-user: git
+Test and build	Checkout	2026-10-20T02:05:23.6149989Z   persist-credentials: true
+Test and build	Checkout	2026-10-20T02:05:23.6150373Z   clean: true
+Test and build	Checkout	2026-10-20T02:05:23.6150723Z   sparse-checkout-cone-mode: true
+Test and build	Checkout	2026-10-20T02:05:23.6151124Z   fetch-depth: 1
+Test and build	Checkout	2026-10-20T02:05:23.6151460Z   fetch-tags: false
+Test and build	Checkout	2026-10-20T02:05:23.6151808Z   show-progress: true
+Test and build	Checkout	2026-10-20T02:05:23.6152153Z   lfs: false
+Test and build	Checkout	2026-10-20T02:05:23.6152474Z   submodules: false
+Test and build	Checkout	2026-10-20T02:05:23.6152828Z   set-safe-directory: true
+Test and build	Checkout	2026-10-20T02:05:23.6153220Z   allow-unsafe-pr-checkout: false
+Test and build	Checkout	2026-10-20T02:05:23.6153845Z ##[endgroup]
+Test and build	Checkout	2026-10-20T02:05:23.6972036Z Syncing repository: Shiirevninj/my-first-project-
+Test and build	Checkout	2026-10-20T02:05:23.6974280Z ##[group]Getting Git version info
+Test and build	Checkout	2026-10-20T02:05:23.6975338Z Working directory is '/home/runner/work/my-first-project-/my-first-project-'
+Test and build	Checkout	2026-10-20T02:05:23.6976932Z [command]/usr/bin/git version
+Test and build	Checkout	2026-10-20T02:05:23.7032560Z git version 2.55.0
+Test and build	Checkout	2026-10-20T02:05:23.7048795Z ##[endgroup]
+Test and build	Checkout	2026-10-20T02:05:23.7067912Z Temporarily overriding HOME='/home/runner/work/_temp/8a756082-94fc-4e02-89eb-b34c4cb833e8' before making global git config changes
+Test and build	Checkout	2026-10-20T02:05:23.7072047Z Adding repository directory to the temporary git global config as a safe directory
+Test and build	Checkout	2026-10-20T02:05:23.7078594Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/my-first-project-/my-first-project-
+Test and build	Checkout	2026-10-20T02:05:23.7119788Z Deleting the contents of '/home/runner/work/my-first-project-/my-first-project-'
+Test and build	Checkout	2026-10-20T02:05:23.7124477Z ##[group]Initializing the repository
+Test and build	Checkout	2026-10-20T02:05:23.7127763Z [command]/usr/bin/git init /home/runner/work/my-first-project-/my-first-project-
+Test and build	Checkout	2026-10-20T02:05:23.7217689Z hint: Using 'master' as the name for the initial branch. This default branch name
+Test and build	Checkout	2026-10-20T02:05:23.7222984Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+Test and build	Checkout	2026-10-20T02:05:23.7224544Z hint: to use in all of your new repositories, which will suppress this warning,
+Test and build	Checkout	2026-10-20T02:05:23.7225938Z hint: call:
+Test and build	Checkout	2026-10-20T02:05:23.7226571Z hint:
+Test and build	Checkout	2026-10-20T02:05:23.7227175Z hint: 	git config --global init.defaultBranch <name>
+Test and build	Checkout	2026-10-20T02:05:23.7227923Z hint:
+Test and build	Checkout	2026-10-20T02:05:23.7228602Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+Test and build	Checkout	2026-10-20T02:05:23.7229705Z hint: 'development'. The just-created branch can be renamed via this command:
+Test and build	Checkout	2026-10-20T02:05:23.7230582Z hint:
+Test and build	Checkout	2026-10-20T02:05:23.7231078Z hint: 	git branch -m <name>
+Test and build	Checkout	2026-10-20T02:05:23.7231684Z hint:
+Test and build	Checkout	2026-10-20T02:05:23.7232510Z hint: Disable this message with "git config set advice.defaultBranchName false"
+Test and build	Checkout	2026-10-20T02:05:23.7233861Z Initialized empty Git repository in /home/runner/work/my-first-project-/my-first-project-/.git/
+Test and build	Checkout	2026-10-20T02:05:23.7236091Z [command]/usr/bin/git remote add origin https://github.com/Shiirevninj/my-first-project-
+Test and build	Checkout	2026-10-20T02:05:23.7281538Z ##[endgroup]
+Test and build	Checkout	2026-10-20T02:05:23.7282493Z ##[group]Disabling automatic garbage collection
+Test and build	Checkout	2026-10-20T02:05:23.7285350Z [command]/usr/bin/git config --local gc.auto 0
+Test and build	Checkout	2026-10-20T02:05:23.7313771Z ##[endgroup]
+Test and build	Checkout	2026-10-20T02:05:23.7314664Z ##[group]Setting up auth
+Test and build	Checkout	2026-10-20T02:05:23.7319757Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Test and build	Checkout	2026-10-20T02:05:23.7348442Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Test and build	Checkout	2026-10-20T02:05:23.7721106Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Test and build	Checkout	2026-10-20T02:05:23.7752090Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Test and build	Checkout	2026-10-20T02:05:23.7945932Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Test and build	Checkout	2026-10-20T02:05:23.7978391Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Test and build	Checkout	2026-10-20T02:05:23.8172115Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+Test and build	Checkout	2026-10-20T02:05:23.8208943Z ##[endgroup]
+Test and build	Checkout	2026-10-20T02:05:23.8209944Z ##[group]Fetching the repository
+Test and build	Checkout	2026-10-20T02:05:23.8217278Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +f1139feaeccc4ba3dbd998f5ef5398add7f12c12:refs/remotes/origin/ci/github-actions-lab7
+Test and build	Checkout	2026-10-20T02:05:24.3563360Z From https://github.com/Shiirevninj/my-first-project-
+Test and build	Checkout	2026-10-20T02:05:24.3564951Z  * [new ref]         f1139feaeccc4ba3dbd998f5ef5398add7f12c12 -> origin/ci/github-actions-lab7
+Test and build	Checkout	2026-10-20T02:05:24.3568013Z ##[endgroup]
+Test and build	Checkout	2026-10-20T02:05:24.3569274Z ##[group]Determining the checkout info
+Test and build	Checkout	2026-10-20T02:05:24.3570644Z ##[endgroup]
+Test and build	Checkout	2026-10-20T02:05:24.3575104Z [command]/usr/bin/git sparse-checkout disable
+Test and build	Checkout	2026-10-20T02:05:24.3629226Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+Test and build	Checkout	2026-10-20T02:05:24.3658216Z ##[group]Checking out the ref
+Test and build	Checkout	2026-10-20T02:05:24.3661852Z [command]/usr/bin/git checkout --progress --force -B ci/github-actions-lab7 refs/remotes/origin/ci/github-actions-lab7
+Test and build	Checkout	2026-10-20T02:05:24.3740207Z Switched to a new branch 'ci/github-actions-lab7'
+Test and build	Checkout	2026-10-20T02:05:24.3745413Z branch 'ci/github-actions-lab7' set up to track 'origin/ci/github-actions-lab7'.
+Test and build	Checkout	2026-10-20T02:05:24.3750006Z ##[endgroup]
+Test and build	Checkout	2026-10-20T02:05:24.3785923Z [command]/usr/bin/git log -1 --format=%H
+Test and build	Checkout	2026-10-20T02:05:24.3809207Z f1139feaeccc4ba3dbd998f5ef5398add7f12c12
+Test and build	Setup Node.js	﻿2026-10-20T02:05:24.4048227Z ##[group]Run actions/setup-node@v4
+Test and build	Setup Node.js	2026-10-20T02:05:24.4048766Z with:
+Test and build	Setup Node.js	2026-10-20T02:05:24.4049129Z   node-version: 24
+Test and build	Setup Node.js	2026-10-20T02:05:24.4049668Z   cache: npm
+Test and build	Setup Node.js	2026-10-20T02:05:24.4050117Z   cache-dependency-path: code/auction/package-lock.json
+Test and build	Setup Node.js	2026-10-20T02:05:24.4050664Z   always-auth: false
+Test and build	Setup Node.js	2026-10-20T02:05:24.4051053Z   check-latest: false
+Test and build	Setup Node.js	2026-10-20T02:05:24.4054756Z   token: ***
+Test and build	Setup Node.js	2026-10-20T02:05:24.4055184Z ##[endgroup]
+Test and build	Setup Node.js	2026-10-20T02:05:24.5189091Z Found in cache @ /opt/hostedtoolcache/node/24.21.0/x64
+Test and build	Setup Node.js	2026-10-20T02:05:24.5193524Z (node:2076) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+Test and build	Setup Node.js	2026-10-20T02:05:24.5194949Z (Use `node --trace-deprecation ...` to show where the warning was created)
+Test and build	Setup Node.js	2026-10-20T02:05:24.5196255Z ##[group]Environment details
+Test and build	Setup Node.js	2026-10-20T02:05:24.8455793Z node: v24.21.0
+Test and build	Setup Node.js	2026-10-20T02:05:24.8456817Z npm: 11.19.0
+Test and build	Setup Node.js	2026-10-20T02:05:24.8457438Z yarn: 1.22.22
+Test and build	Setup Node.js	2026-10-20T02:05:24.8458887Z ##[endgroup]
+Test and build	Setup Node.js	2026-10-20T02:05:24.8489691Z [command]/opt/hostedtoolcache/node/24.21.0/x64/bin/npm config get cache
+Test and build	Setup Node.js	2026-10-20T02:05:24.9461410Z /home/runner/.npm
+Test and build	Setup Node.js	2026-10-20T02:05:25.1637313Z npm cache is not found
+Test and build	Install dependencies	﻿2026-10-20T02:05:25.1824128Z ##[group]Run npm ci
+Test and build	Install dependencies	2026-10-20T02:05:25.1824520Z ^[[36;1mnpm ci^[[0m
+Test and build	Install dependencies	2026-10-20T02:05:25.2064932Z shell: /usr/bin/bash -e {0}
+Test and build	Install dependencies	2026-10-20T02:05:25.2065268Z ##[endgroup]
+Test and build	Install dependencies	2026-10-20T02:05:33.3049647Z npm warn deprecated eslint@9.39.5: This version is no longer supported. Please see https://eslint.org/version-support for other options.
+Test and build	Install dependencies	2026-10-20T02:05:37.7521382Z 
+Test and build	Install dependencies	2026-10-20T02:05:37.7522347Z added 399 packages, and audited 400 packages in 12s
+Test and build	Install dependencies	2026-10-20T02:05:37.7522862Z 
+Test and build	Install dependencies	2026-10-20T02:05:37.7523122Z 163 packages are looking for funding
+Test and build	Install dependencies	2026-10-20T02:05:37.7523519Z   run `npm fund` for details
+Test and build	Install dependencies	2026-10-20T02:05:37.7930380Z 
+Test and build	Install dependencies	2026-10-20T02:05:37.7931115Z 5 high severity vulnerabilities
+Test and build	Install dependencies	2026-10-20T02:05:37.7931401Z 
+Test and build	Install dependencies	2026-10-20T02:05:37.7931696Z To address all issues (including breaking changes), run:
+Test and build	Install dependencies	2026-10-20T02:05:37.7932156Z   npm audit fix --force
+Test and build	Install dependencies	2026-10-20T02:05:37.7932339Z 
+Test and build	Install dependencies	2026-10-20T02:05:37.7932496Z Run `npm audit` for details.
+Test and build	Install dependencies	2026-10-20T02:05:37.7939003Z npm warn install-scripts 1 package has install scripts not yet covered by allowScripts:
+Test and build	Install dependencies	2026-10-20T02:05:37.7940270Z npm warn install-scripts   unrs-resolver@1.12.2 (postinstall: node postinstall.js)
+Test and build	Install dependencies	2026-10-20T02:05:37.7940837Z npm warn install-scripts
+Test and build	Install dependencies	2026-10-20T02:05:37.7941697Z npm warn install-scripts Run `npm install-scripts ls` to review, or `npm install-scripts approve <pkg>` to allow.
+Test and build	Test and build	﻿2026-10-20T02:05:37.8597564Z ##[group]Run npm test
+Test and build	Test and build	2026-10-20T02:05:37.8597849Z ^[[36;1mnpm test^[[0m
+Test and build	Test and build	2026-10-20T02:05:37.8598030Z ^[[36;1mnpm run build^[[0m
+Test and build	Test and build	2026-10-20T02:05:37.8656770Z shell: /usr/bin/bash -e {0}
+Test and build	Test and build	2026-10-20T02:05:37.8657006Z ##[endgroup]
+Test and build	Test and build	2026-10-20T02:05:37.9595968Z 
+Test and build	Test and build	2026-10-20T02:05:37.9596718Z > auction@0.1.0 test
+Test and build	Test and build	2026-10-20T02:05:37.9597176Z > vitest run
+Test and build	Test and build	2026-10-20T02:05:37.9597364Z 
+Test and build	Test and build	2026-10-20T02:05:38.2070098Z 
+Test and build	Test and build	2026-10-20T02:05:38.2098100Z ^[[1m^[[30m^[[46m RUN ^[[49m^[[39m^[[22m ^[[36mv4.1.12 ^[[39m^[[90m/home/runner/work/my-first-project-/my-first-project-/code/auction^[[39m
+Test and build	Test and build	2026-10-20T02:05:38.2121430Z 
+Test and build	Test and build	2026-10-20T02:05:38.3958855Z  ^[[32m✓^[[39m tests/page.test.tsx ^[[2m(^[[22m^[[2m5 tests^[[22m^[[2m)^[[22m^[[32m 15^[[2mms^[[22m^[[39m
+Test and build	Test and build	2026-10-20T02:05:38.3996766Z 
+Test and build	Test and build	2026-10-20T02:05:38.3997663Z ^[[2m Test Files ^[[22m ^[[1m^[[32m1 passed^[[39m^[[22m^[[90m (1)^[[39m
+Test and build	Test and build	2026-10-20T02:05:38.3998506Z ^[[2m      Tests ^[[22m ^[[1m^[[32m5 passed^[[39m^[[22m^[[90m (5)^[[39m
+Test and build	Test and build	2026-10-20T02:05:38.3999154Z ^[[2m   Start at ^[[22m 02:05:38
+Test and build	Test and build	2026-10-20T02:05:38.4000131Z ^[[2m   Duration ^[[22m 186ms^[[2m (transform 24ms, setup 0ms, import 61ms, tests 15ms, environment 0ms)^[[22m
+Test and build	Test and build	2026-10-20T02:05:38.4000854Z 
+Test and build	Test and build	2026-10-20T02:05:38.5003692Z 
+Test and build	Test and build	2026-10-20T02:05:38.5004335Z > auction@0.1.0 build
+Test and build	Test and build	2026-10-20T02:05:38.5004640Z > next build
+Test and build	Test and build	2026-10-20T02:05:38.5004744Z 
+Test and build	Test and build	2026-10-20T02:05:38.7963473Z ▲ Next.js 16.4.2 (Turbopack)
+Test and build	Test and build	2026-10-20T02:05:38.8194368Z ✓ Running next.config.ts took 23ms
+Test and build	Test and build	2026-10-20T02:05:38.8217346Z ⚠ No build cache found. Please configure build caching for faster rebuilds. Read more: https://nextjs.org/docs/messages/no-cache
+Test and build	Test and build	2026-10-20T02:05:38.9920144Z Attention: Next.js now collects completely anonymous telemetry regarding usage.
+Test and build	Test and build	2026-10-20T02:05:38.9921055Z This information is used to shape Next.js' roadmap and prioritize features.
+Test and build	Test and build	2026-10-20T02:05:38.9922121Z You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+Test and build	Test and build	2026-10-20T02:05:38.9922868Z https://nextjs.org/telemetry
+Test and build	Test and build	2026-10-20T02:05:38.9923130Z 
+Test and build	Test and build	2026-10-20T02:05:39.1938872Z - Cache Components enabled
+Test and build	Test and build	2026-10-20T02:05:39.1939438Z - Partial Prefetching enabled
+Test and build	Test and build	2026-10-20T02:05:39.1939836Z - Experiments (use with caution):
+Test and build	Test and build	2026-10-20T02:05:39.1959263Z   ✓ agentFeedback
+Test and build	Test and build	2026-10-20T02:05:39.1960035Z 
+Test and build	Test and build	2026-10-20T02:05:39.2108884Z   Creating an optimized production build ...
+Test and build	Test and build	2026-10-20T02:05:42.1664002Z ✓ Compiled successfully in 2.9s
+Test and build	Test and build	2026-10-20T02:05:42.1923548Z   Running TypeScript ...
+Test and build	Test and build	2026-10-20T02:05:43.8671415Z   Finished TypeScript in 1675ms ...
+Test and build	Test and build	2026-10-20T02:05:43.8690298Z   Collecting page data using 3 workers ...
+Test and build	Test and build	2026-10-20T02:05:44.2987762Z   Generating static pages using 3 workers (0/4) ...
+Test and build	Test and build	2026-10-20T02:05:44.3989455Z   Generating static pages using 3 workers (1/4) 
+Test and build	Test and build	2026-10-20T02:05:44.4697199Z   Generating static pages using 3 workers (2/4) 
+Test and build	Test and build	2026-10-20T02:05:44.4716265Z   Generating static pages using 3 workers (3/4) 
+Test and build	Test and build	2026-10-20T02:05:44.4721407Z ✓ Generating static pages using 3 workers (4/4) in 174ms
+Test and build	Test and build	2026-10-20T02:05:44.4753582Z   Finalizing page optimization ...
+Test and build	Test and build	2026-10-20T02:05:44.4805616Z 
+Test and build	Test and build	2026-10-20T02:05:44.4824077Z Route (app)
+Test and build	Test and build	2026-10-20T02:05:44.4824855Z ┌ ○ /
+Test and build	Test and build	2026-10-20T02:05:44.4825446Z └ ○ /_not-found
+Test and build	Test and build	2026-10-20T02:05:44.4825847Z 
+Test and build	Test and build	2026-10-20T02:05:44.4826285Z 
+Test and build	Test and build	2026-10-20T02:05:44.4830811Z ○  (Static)  prerendered as static content
+Test and build	Test and build	2026-10-20T02:05:44.4832901Z 
+Test and build	Post Setup Node.js	﻿2026-10-20T02:05:45.0155657Z Post job cleanup.
+Test and build	Post Setup Node.js	2026-10-20T02:05:45.1138092Z (node:2300) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+Test and build	Post Setup Node.js	2026-10-20T02:05:45.1139253Z (Use `node --trace-deprecation ...` to show where the warning was created)
+Test and build	Post Setup Node.js	2026-10-20T02:05:45.1296969Z [command]/usr/bin/tar --posix -cf cache.tzst --exclude cache.tzst -P -C /home/runner/work/my-first-project-/my-first-project- --files-from manifest.txt --use-compress-program zstdmt
+Test and build	Post Setup Node.js	2026-10-20T02:05:45.6297898Z (node:2300) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+Test and build	Post Setup Node.js	2026-10-20T02:05:46.6227556Z Sent 0 of 177891717 (0.0%), 0.0 MBs/sec
+Test and build	Post Setup Node.js	2026-10-20T02:05:47.6215596Z Sent 110782853 of 177891717 (62.3%), 52.8 MBs/sec
+Test and build	Post Setup Node.js	2026-10-20T02:05:47.7036807Z Sent 177891717 of 177891717 (100.0%), 81.4 MBs/sec
+Test and build	Post Setup Node.js	2026-10-20T02:05:47.9704198Z Cache saved with the key: node-cache-Linux-x64-npm-f9193f989df631e914587d9f53dc9b9d4b57b0bee5a6bdfa34c340b4ca85ad6d
+Test and build	Post Checkout	﻿2026-10-20T02:05:48.0755099Z Post job cleanup.
+Test and build	Post Checkout	2026-10-20T02:05:48.1454442Z [command]/usr/bin/git version
+Test and build	Post Checkout	2026-10-20T02:05:48.1491527Z git version 2.55.0
+Test and build	Post Checkout	2026-10-20T02:05:48.1525455Z Temporarily overriding HOME='/home/runner/work/_temp/88a16fae-5f74-4b28-a236-0ed27d039835' before making global git config changes
+Test and build	Post Checkout	2026-10-20T02:05:48.1526651Z Adding repository directory to the temporary git global config as a safe directory
+Test and build	Post Checkout	2026-10-20T02:05:48.1531024Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/my-first-project-/my-first-project-
+Test and build	Post Checkout	2026-10-20T02:05:48.1997634Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Test and build	Post Checkout	2026-10-20T02:05:48.2042484Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Test and build	Post Checkout	2026-10-20T02:05:48.2301343Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Test and build	Post Checkout	2026-10-20T02:05:48.2335058Z http.https://github.com/.extraheader
+Test and build	Post Checkout	2026-10-20T02:05:48.2347575Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+Test and build	Post Checkout	2026-10-20T02:05:48.3158465Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Test and build	Post Checkout	2026-10-20T02:05:48.3360444Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Test and build	Post Checkout	2026-10-20T02:05:48.3393465Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Test and build	Complete job	﻿2026-10-20T02:05:48.3724777Z Cleaning up orphan processes
+Test and build	Complete job	2026-10-20T02:05:48.4009428Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4, actions/setup-node@v4. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/

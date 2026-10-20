@@ -1,0 +1,230 @@
+Test and build	Set up job	﻿2026-10-20T02:06:47.4294030Z Current runner version: '2.337.0'
+Test and build	Set up job	2026-10-20T02:06:47.4318457Z ##[group]Runner Image Provisioner
+Test and build	Set up job	2026-10-20T02:06:47.4319355Z Hosted Compute Agent
+Test and build	Set up job	2026-10-20T02:06:47.4320010Z Version: 20261012.601
+Test and build	Set up job	2026-10-20T02:06:47.4320591Z Commit: f3dc54e1fb89da6852db922499a0233137369e1d
+Test and build	Set up job	2026-10-20T02:06:47.4321256Z Build Date: 2026-10-12T17:48:21Z
+Test and build	Set up job	2026-10-20T02:06:47.4321913Z Worker ID: {405b6adb-1fb5-499e-8e85-ab9b1d5522f0}
+Test and build	Set up job	2026-10-20T02:06:47.4322629Z Region: westus3
+Test and build	Set up job	2026-10-20T02:06:47.4323182Z Cloud: Azure
+Test and build	Set up job	2026-10-20T02:06:47.4323679Z ##[endgroup]
+Test and build	Set up job	2026-10-20T02:06:47.4325142Z ##[group]Operating System
+Test and build	Set up job	2026-10-20T02:06:47.4325772Z Ubuntu
+Test and build	Set up job	2026-10-20T02:06:47.4326362Z 24.04.5
+Test and build	Set up job	2026-10-20T02:06:47.4326829Z LTS
+Test and build	Set up job	2026-10-20T02:06:47.4327285Z ##[endgroup]
+Test and build	Set up job	2026-10-20T02:06:47.4327809Z ##[group]Runner Image
+Test and build	Set up job	2026-10-20T02:06:47.4328399Z Image: ubuntu-24.04
+Test and build	Set up job	2026-10-20T02:06:47.4328920Z Version: 20261012.334.1
+Test and build	Set up job	2026-10-20T02:06:47.4330151Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20261012.334/images/ubuntu/Ubuntu2404-Readme.md
+Test and build	Set up job	2026-10-20T02:06:47.4331911Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20261012.334
+Test and build	Set up job	2026-10-20T02:06:47.4332964Z ##[endgroup]
+Test and build	Set up job	2026-10-20T02:06:47.4334431Z ##[group]GITHUB_TOKEN Permissions
+Test and build	Set up job	2026-10-20T02:06:47.4336610Z Contents: read
+Test and build	Set up job	2026-10-20T02:06:47.4337229Z Metadata: read
+Test and build	Set up job	2026-10-20T02:06:47.4337725Z Packages: read
+Test and build	Set up job	2026-10-20T02:06:47.4338206Z ##[endgroup]
+Test and build	Set up job	2026-10-20T02:06:47.4340541Z Secret source: Actions
+Test and build	Set up job	2026-10-20T02:06:47.4341391Z Cache mode: write
+Test and build	Set up job	2026-10-20T02:06:47.4342342Z Prepare workflow directory
+Test and build	Set up job	2026-10-20T02:06:47.4726723Z Prepare all required actions
+Test and build	Set up job	2026-10-20T02:06:47.4776034Z Getting action download info
+Test and build	Set up job	2026-10-20T02:06:47.7682124Z Download action repository 'actions/checkout@v4' (SHA:11d5960a326750d5838078e36cf38b85af677262)
+Test and build	Set up job	2026-10-20T02:06:47.8683473Z Download action repository 'actions/setup-node@v4' (SHA:49933ea5288caeca8642d1e84afbd3f7d6820020)
+Test and build	Set up job	2026-10-20T02:06:48.0248659Z Complete job name: Test and build
+Test and build	Checkout	﻿2026-10-20T02:06:48.0926967Z ##[group]Run actions/checkout@v4
+Test and build	Checkout	2026-10-20T02:06:48.0927968Z with:
+Test and build	Checkout	2026-10-20T02:06:48.0928489Z   repository: Shiirevninj/my-first-project-
+Test and build	Checkout	2026-10-20T02:06:48.0932253Z   token: ***
+Test and build	Checkout	2026-10-20T02:06:48.0932741Z   ssh-strict: true
+Test and build	Checkout	2026-10-20T02:06:48.0933201Z   ssh-user: git
+Test and build	Checkout	2026-10-20T02:06:48.0933722Z   persist-credentials: true
+Test and build	Checkout	2026-10-20T02:06:48.0934253Z   clean: true
+Test and build	Checkout	2026-10-20T02:06:48.0934740Z   sparse-checkout-cone-mode: true
+Test and build	Checkout	2026-10-20T02:06:48.0935297Z   fetch-depth: 1
+Test and build	Checkout	2026-10-20T02:06:48.0935769Z   fetch-tags: false
+Test and build	Checkout	2026-10-20T02:06:48.0936274Z   show-progress: true
+Test and build	Checkout	2026-10-20T02:06:48.0936767Z   lfs: false
+Test and build	Checkout	2026-10-20T02:06:48.0937216Z   submodules: false
+Test and build	Checkout	2026-10-20T02:06:48.0937697Z   set-safe-directory: true
+Test and build	Checkout	2026-10-20T02:06:48.0938216Z   allow-unsafe-pr-checkout: false
+Test and build	Checkout	2026-10-20T02:06:48.0939039Z ##[endgroup]
+Test and build	Checkout	2026-10-20T02:06:48.2110615Z Syncing repository: Shiirevninj/my-first-project-
+Test and build	Checkout	2026-10-20T02:06:48.2113162Z ##[group]Getting Git version info
+Test and build	Checkout	2026-10-20T02:06:48.2114508Z Working directory is '/home/runner/work/my-first-project-/my-first-project-'
+Test and build	Checkout	2026-10-20T02:06:48.2115688Z [command]/usr/bin/git version
+Test and build	Checkout	2026-10-20T02:06:48.2116143Z git version 2.55.0
+Test and build	Checkout	2026-10-20T02:06:48.2117687Z ##[endgroup]
+Test and build	Checkout	2026-10-20T02:06:48.2123563Z Temporarily overriding HOME='/home/runner/work/_temp/c6515023-1e77-4535-a54a-ba6916cf08c3' before making global git config changes
+Test and build	Checkout	2026-10-20T02:06:48.2125512Z Adding repository directory to the temporary git global config as a safe directory
+Test and build	Checkout	2026-10-20T02:06:48.2127786Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/my-first-project-/my-first-project-
+Test and build	Checkout	2026-10-20T02:06:48.2184700Z Deleting the contents of '/home/runner/work/my-first-project-/my-first-project-'
+Test and build	Checkout	2026-10-20T02:06:48.2189325Z ##[group]Initializing the repository
+Test and build	Checkout	2026-10-20T02:06:48.2194561Z [command]/usr/bin/git init /home/runner/work/my-first-project-/my-first-project-
+Test and build	Checkout	2026-10-20T02:06:48.2264942Z hint: Using 'master' as the name for the initial branch. This default branch name
+Test and build	Checkout	2026-10-20T02:06:48.2266868Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+Test and build	Checkout	2026-10-20T02:06:48.2268248Z hint: to use in all of your new repositories, which will suppress this warning,
+Test and build	Checkout	2026-10-20T02:06:48.2269103Z hint: call:
+Test and build	Checkout	2026-10-20T02:06:48.2269464Z hint:
+Test and build	Checkout	2026-10-20T02:06:48.2270127Z hint: 	git config --global init.defaultBranch <name>
+Test and build	Checkout	2026-10-20T02:06:48.2270669Z hint:
+Test and build	Checkout	2026-10-20T02:06:48.2271190Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+Test and build	Checkout	2026-10-20T02:06:48.2272011Z hint: 'development'. The just-created branch can be renamed via this command:
+Test and build	Checkout	2026-10-20T02:06:48.2272656Z hint:
+Test and build	Checkout	2026-10-20T02:06:48.2273023Z hint: 	git branch -m <name>
+Test and build	Checkout	2026-10-20T02:06:48.2273434Z hint:
+Test and build	Checkout	2026-10-20T02:06:48.2273989Z hint: Disable this message with "git config set advice.defaultBranchName false"
+Test and build	Checkout	2026-10-20T02:06:48.2275001Z Initialized empty Git repository in /home/runner/work/my-first-project-/my-first-project-/.git/
+Test and build	Checkout	2026-10-20T02:06:48.2289107Z [command]/usr/bin/git remote add origin https://github.com/Shiirevninj/my-first-project-
+Test and build	Checkout	2026-10-20T02:06:48.2321557Z ##[endgroup]
+Test and build	Checkout	2026-10-20T02:06:48.2322276Z ##[group]Disabling automatic garbage collection
+Test and build	Checkout	2026-10-20T02:06:48.2326725Z [command]/usr/bin/git config --local gc.auto 0
+Test and build	Checkout	2026-10-20T02:06:48.2352701Z ##[endgroup]
+Test and build	Checkout	2026-10-20T02:06:48.2353370Z ##[group]Setting up auth
+Test and build	Checkout	2026-10-20T02:06:48.2361915Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Test and build	Checkout	2026-10-20T02:06:48.2394808Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Test and build	Checkout	2026-10-20T02:06:48.2701268Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Test and build	Checkout	2026-10-20T02:06:48.2737298Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Test and build	Checkout	2026-10-20T02:06:48.2942054Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Test and build	Checkout	2026-10-20T02:06:48.2974418Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Test and build	Checkout	2026-10-20T02:06:48.3148018Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+Test and build	Checkout	2026-10-20T02:06:48.3180820Z ##[endgroup]
+Test and build	Checkout	2026-10-20T02:06:48.3181560Z ##[group]Fetching the repository
+Test and build	Checkout	2026-10-20T02:06:48.3190162Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +1597f73f042185d2b1f8d78cb64ea6405da65272:refs/remotes/origin/ci/github-actions-lab7
+Test and build	Checkout	2026-10-20T02:06:48.8740463Z From https://github.com/Shiirevninj/my-first-project-
+Test and build	Checkout	2026-10-20T02:06:48.8742177Z  * [new ref]         1597f73f042185d2b1f8d78cb64ea6405da65272 -> origin/ci/github-actions-lab7
+Test and build	Checkout	2026-10-20T02:06:48.8744971Z ##[endgroup]
+Test and build	Checkout	2026-10-20T02:06:48.8746238Z ##[group]Determining the checkout info
+Test and build	Checkout	2026-10-20T02:06:48.8748493Z ##[endgroup]
+Test and build	Checkout	2026-10-20T02:06:48.8755170Z [command]/usr/bin/git sparse-checkout disable
+Test and build	Checkout	2026-10-20T02:06:48.8798150Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+Test and build	Checkout	2026-10-20T02:06:48.8824263Z ##[group]Checking out the ref
+Test and build	Checkout	2026-10-20T02:06:48.8830000Z [command]/usr/bin/git checkout --progress --force -B ci/github-actions-lab7 refs/remotes/origin/ci/github-actions-lab7
+Test and build	Checkout	2026-10-20T02:06:48.8902818Z Switched to a new branch 'ci/github-actions-lab7'
+Test and build	Checkout	2026-10-20T02:06:48.8906956Z branch 'ci/github-actions-lab7' set up to track 'origin/ci/github-actions-lab7'.
+Test and build	Checkout	2026-10-20T02:06:48.8911867Z ##[endgroup]
+Test and build	Checkout	2026-10-20T02:06:48.8946610Z [command]/usr/bin/git log -1 --format=%H
+Test and build	Checkout	2026-10-20T02:06:48.8967138Z 1597f73f042185d2b1f8d78cb64ea6405da65272
+Test and build	Setup Node.js	﻿2026-10-20T02:06:48.9220956Z ##[group]Run actions/setup-node@v4
+Test and build	Setup Node.js	2026-10-20T02:06:48.9221480Z with:
+Test and build	Setup Node.js	2026-10-20T02:06:48.9221835Z   node-version: 24
+Test and build	Setup Node.js	2026-10-20T02:06:48.9222350Z   cache: npm
+Test and build	Setup Node.js	2026-10-20T02:06:48.9222813Z   cache-dependency-path: code/auction/package-lock.json
+Test and build	Setup Node.js	2026-10-20T02:06:48.9223376Z   always-auth: false
+Test and build	Setup Node.js	2026-10-20T02:06:48.9223768Z   check-latest: false
+Test and build	Setup Node.js	2026-10-20T02:06:48.9227009Z   token: ***
+Test and build	Setup Node.js	2026-10-20T02:06:48.9227380Z ##[endgroup]
+Test and build	Setup Node.js	2026-10-20T02:06:49.0616081Z Found in cache @ /opt/hostedtoolcache/node/24.21.0/x64
+Test and build	Setup Node.js	2026-10-20T02:06:49.0620881Z (node:2227) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+Test and build	Setup Node.js	2026-10-20T02:06:49.0621974Z (Use `node --trace-deprecation ...` to show where the warning was created)
+Test and build	Setup Node.js	2026-10-20T02:06:49.0624012Z ##[group]Environment details
+Test and build	Setup Node.js	2026-10-20T02:06:49.4204169Z node: v24.21.0
+Test and build	Setup Node.js	2026-10-20T02:06:49.4205635Z npm: 11.19.0
+Test and build	Setup Node.js	2026-10-20T02:06:49.4206893Z yarn: 1.22.22
+Test and build	Setup Node.js	2026-10-20T02:06:49.4209285Z ##[endgroup]
+Test and build	Setup Node.js	2026-10-20T02:06:49.4226380Z [command]/opt/hostedtoolcache/node/24.21.0/x64/bin/npm config get cache
+Test and build	Setup Node.js	2026-10-20T02:06:49.5359523Z /home/runner/.npm
+Test and build	Setup Node.js	2026-10-20T02:06:49.7722034Z Cache hit for: node-cache-Linux-x64-npm-f9193f989df631e914587d9f53dc9b9d4b57b0bee5a6bdfa34c340b4ca85ad6d
+Test and build	Setup Node.js	2026-10-20T02:06:49.7825781Z (node:2227) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+Test and build	Setup Node.js	2026-10-20T02:06:50.9956950Z Received 33554432 of 177891717 (18.9%), 32.0 MBs/sec
+Test and build	Setup Node.js	2026-10-20T02:06:51.9969885Z Received 177891717 of 177891717 (100.0%), 84.8 MBs/sec
+Test and build	Setup Node.js	2026-10-20T02:06:51.9970974Z Cache Size: ~170 MB (177891717 B)
+Test and build	Setup Node.js	2026-10-20T02:06:52.0004678Z [command]/usr/bin/tar -xf /home/runner/work/_temp/7f0a5a0a-2ea4-4c02-aeb2-c59ad20466e2/cache.tzst -P -C /home/runner/work/my-first-project-/my-first-project- --use-compress-program unzstd
+Test and build	Setup Node.js	2026-10-20T02:06:52.1858200Z Cache restored successfully
+Test and build	Setup Node.js	2026-10-20T02:06:52.1934903Z Cache restored from key: node-cache-Linux-x64-npm-f9193f989df631e914587d9f53dc9b9d4b57b0bee5a6bdfa34c340b4ca85ad6d
+Test and build	Install dependencies	﻿2026-10-20T02:06:52.2108604Z ##[group]Run npm ci
+Test and build	Install dependencies	2026-10-20T02:06:52.2109073Z ^[[36;1mnpm ci^[[0m
+Test and build	Install dependencies	2026-10-20T02:06:52.2281749Z shell: /usr/bin/bash -e {0}
+Test and build	Install dependencies	2026-10-20T02:06:52.2282174Z ##[endgroup]
+Test and build	Install dependencies	2026-10-20T02:06:57.2987274Z npm warn deprecated eslint@9.39.5: This version is no longer supported. Please see https://eslint.org/version-support for other options.
+Test and build	Install dependencies	2026-10-20T02:07:00.9274343Z 
+Test and build	Install dependencies	2026-10-20T02:07:00.9275865Z added 399 packages, and audited 400 packages in 9s
+Test and build	Install dependencies	2026-10-20T02:07:00.9276883Z 
+Test and build	Install dependencies	2026-10-20T02:07:00.9277831Z 163 packages are looking for funding
+Test and build	Install dependencies	2026-10-20T02:07:00.9278459Z   run `npm fund` for details
+Test and build	Install dependencies	2026-10-20T02:07:00.9705380Z 
+Test and build	Install dependencies	2026-10-20T02:07:00.9706309Z 5 high severity vulnerabilities
+Test and build	Install dependencies	2026-10-20T02:07:00.9706907Z 
+Test and build	Install dependencies	2026-10-20T02:07:00.9707533Z To address all issues (including breaking changes), run:
+Test and build	Install dependencies	2026-10-20T02:07:00.9708207Z   npm audit fix --force
+Test and build	Install dependencies	2026-10-20T02:07:00.9708486Z 
+Test and build	Install dependencies	2026-10-20T02:07:00.9708704Z Run `npm audit` for details.
+Test and build	Install dependencies	2026-10-20T02:07:00.9716267Z npm warn install-scripts 1 package has install scripts not yet covered by allowScripts:
+Test and build	Install dependencies	2026-10-20T02:07:00.9718983Z npm warn install-scripts   unrs-resolver@1.12.2 (postinstall: node postinstall.js)
+Test and build	Install dependencies	2026-10-20T02:07:00.9720283Z npm warn install-scripts
+Test and build	Install dependencies	2026-10-20T02:07:00.9721699Z npm warn install-scripts Run `npm install-scripts ls` to review, or `npm install-scripts approve <pkg>` to allow.
+Test and build	Test and build	﻿2026-10-20T02:07:01.0291015Z ##[group]Run npm test
+Test and build	Test and build	2026-10-20T02:07:01.0291324Z ^[[36;1mnpm test^[[0m
+Test and build	Test and build	2026-10-20T02:07:01.0291541Z ^[[36;1mnpm run build^[[0m
+Test and build	Test and build	2026-10-20T02:07:01.0331110Z shell: /usr/bin/bash -e {0}
+Test and build	Test and build	2026-10-20T02:07:01.0331406Z ##[endgroup]
+Test and build	Test and build	2026-10-20T02:07:01.1410130Z 
+Test and build	Test and build	2026-10-20T02:07:01.1411047Z > auction@0.1.0 test
+Test and build	Test and build	2026-10-20T02:07:01.1411525Z > vitest run
+Test and build	Test and build	2026-10-20T02:07:01.1411666Z 
+Test and build	Test and build	2026-10-20T02:07:01.4997718Z 
+Test and build	Test and build	2026-10-20T02:07:01.5001908Z ^[[1m^[[30m^[[46m RUN ^[[49m^[[39m^[[22m ^[[36mv4.1.12 ^[[39m^[[90m/home/runner/work/my-first-project-/my-first-project-/code/auction^[[39m
+Test and build	Test and build	2026-10-20T02:07:01.5002826Z 
+Test and build	Test and build	2026-10-20T02:07:01.7264943Z  ^[[31m❯^[[39m tests/page.test.tsx ^[[2m(^[[22m^[[2m5 tests^[[22m^[[2m | ^[[22m^[[31m1 failed^[[39m^[[2m)^[[22m^[[32m 22^[[2mms^[[22m^[[39m
+Test and build	Test and build	2026-10-20T02:07:01.7265960Z      ^[[32m✓^[[39m renders the main content landmark^[[32m 11^[[2mms^[[22m^[[39m
+Test and build	Test and build	2026-10-20T02:07:01.7266619Z ^[[31m     ^[[31m×^[[31m renders the getting started heading^[[39m^[[32m 5^[[2mms^[[22m^[[39m
+Test and build	Test and build	2026-10-20T02:07:01.7267233Z      ^[[32m✓^[[39m provides alternative text for the Next.js logo^[[32m 1^[[2mms^[[22m^[[39m
+Test and build	Test and build	2026-10-20T02:07:01.7267903Z      ^[[32m✓^[[39m links to the Next.js documentation^[[32m 1^[[2mms^[[22m^[[39m
+Test and build	Test and build	2026-10-20T02:07:01.7268729Z      ^[[32m✓^[[39m protects links that open in a new tab^[[32m 2^[[2mms^[[22m^[[39m
+Test and build	Test and build	2026-10-20T02:07:01.7301034Z 
+Test and build	Test and build	2026-10-20T02:07:01.7301869Z ^[[31m⎯⎯⎯⎯⎯⎯⎯^[[39m^[[1m^[[41m Failed Tests 1 ^[[49m^[[22m^[[31m⎯⎯⎯⎯⎯⎯⎯^[[39m
+Test and build	Test and build	2026-10-20T02:07:01.7302183Z 
+Test and build	Test and build	2026-10-20T02:07:01.7305601Z ^[[41m^[[1m FAIL ^[[22m^[[49m tests/page.test.tsx^[[2m > ^[[22mHome page^[[2m > ^[[22mrenders the getting started heading
+Test and build	Test and build	2026-10-20T02:07:01.7314163Z ^[[31m^[[1mAssertionError^[[22m: expected '<link rel="preload" as="image" href="…' to match /<h1\b[^>]*>Welcome to the auction/^[[39m
+Test and build	Test and build	2026-10-20T02:07:01.7314795Z 
+Test and build	Test and build	2026-10-20T02:07:01.7314999Z ^[[32m- Expected:^[[39m
+Test and build	Test and build	2026-10-20T02:07:01.7315307Z /<h1\b[^>]*>Welcome to the auction/
+Test and build	Test and build	2026-10-20T02:07:01.7315501Z 
+Test and build	Test and build	2026-10-20T02:07:01.7315643Z ^[[31m+ Received:^[[39m
+Test and build	Test and build	2026-10-20T02:07:01.7325837Z "<link rel=\"preload\" as=\"image\" href=\"/next.svg\"/><div class=\"flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black\"><main class=\"flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start\"><img alt=\"Next.js logo\" width=\"100\" height=\"20\" decoding=\"async\" data-nimg=\"1\" class=\"dark:invert h-5 w-[100px]\" style=\"color:transparent\" src=\"/next.svg\"/><div class=\"flex flex-col items-center gap-6 text-center sm:items-start sm:text-left\"><h1 class=\"max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50\">To get started, edit the <code class=\"rounded bg-black/[.06] px-1.5 py-0.5 font-mono text-[0.9em] dark:bg-white/[.08]\">page.tsx</code> file.</h1><p class=\"max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400\">Looking for a starting point or more instructions? Head over to <a href=\"https://vercel.com/templates?framework=next.js&amp;utm_source=create-next-app&amp;utm_medium=appdir-template-tw&amp;utm_campaign=create-next-app\" class=\"font-medium text-zinc-950 dark:text-zinc-50\">Templates</a> or the <a href=\"https://nextjs.org/learn?utm_source=create-next-app&amp;utm_medium=appdir-template-tw&amp;utm_campaign=create-next-app\" class=\"font-medium text-zinc-950 dark:text-zinc-50\">searching</a> center.</p></div><div class=\"flex flex-col gap-4 text-base font-medium sm:flex-row\"><a class=\"flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]\" href=\"https://vercel.com/new?utm_source=create-next-app&amp;utm_medium=appdir-template-tw&amp;utm_campaign=create-next-app\" target=\"_blank\" rel=\"noopener noreferrer\"><img alt=\"Vercel logomark\" loading=\"lazy\" width=\"16\" height=\"14\" decoding=\"async\" data-nimg=\"1\" class=\"dark:invert h-[14px] w-4\" style=\"color:transparent\" src=\"/vercel.svg\"/>Deploy</a><a class=\"flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]\" href=\"https://nextjs.org/docs?utm_source=create-next-app&amp;utm_medium=appdir-template-tw&amp;utm_campaign=create-next-app\" target=\"_blank\" rel=\"noopener noreferrer\">Documentation</a></div></main></div>"
+Test and build	Test and build	2026-10-20T02:07:01.7336947Z 
+Test and build	Test and build	2026-10-20T02:07:01.7337535Z ^[[36m ^[[2m❯^[[22m tests/page.test.tsx:^[[2m15:18^[[22m^[[39m
+Test and build	Test and build	2026-10-20T02:07:01.7340663Z     ^[[90m 13|^[[39m     ^[[35mconst^[[39m html ^[[33m=^[[39m ^[[34mrenderToStaticMarkup^[[39m(^[[33m<^[[39m^[[33mHome^[[39m ^[[33m/^[[39m^[[33m>^[[39m)^[[33m;^[[39m
+Test and build	Test and build	2026-10-20T02:07:01.7341854Z     ^[[90m 14|^[[39m
+Test and build	Test and build	2026-10-20T02:07:01.7342498Z     ^[[90m 15|^[[39m     ^[[34mexpect^[[39m(html)^[[33m.^[[39m^[[34mtoMatch^[[39m(^[[36m/<h1\b[^>]*>Welcome to the auction/^[[39m)^[[33m;^[[39m
+Test and build	Test and build	2026-10-20T02:07:01.7343121Z     ^[[90m   |^[[39m                  ^[[31m^^[[39m
+Test and build	Test and build	2026-10-20T02:07:01.7343798Z     ^[[90m 16|^[[39m     ^[[34mexpect^[[39m(html)^[[33m.^[[39m^[[34mtoContain^[[39m(^[[32m"page.tsx"^[[39m)^[[33m;^[[39m
+Test and build	Test and build	2026-10-20T02:07:01.7344690Z     ^[[90m 17|^[[39m   })^[[33m;^[[39m
+Test and build	Test and build	2026-10-20T02:07:01.7344988Z 
+Test and build	Test and build	2026-10-20T02:07:01.7345445Z ^[[31m^[[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯^[[22m^[[39m
+Test and build	Test and build	2026-10-20T02:07:01.7345668Z 
+Test and build	Test and build	2026-10-20T02:07:01.7345726Z 
+Test and build	Test and build	2026-10-20T02:07:01.7347934Z ^[[2m Test Files ^[[22m ^[[1m^[[31m1 failed^[[39m^[[22m^[[90m (1)^[[39m
+Test and build	Test and build	2026-10-20T02:07:01.7349167Z ^[[2m      Tests ^[[22m ^[[1m^[[31m1 failed^[[39m^[[22m^[[2m | ^[[22m^[[1m^[[32m4 passed^[[39m^[[22m^[[90m (5)^[[39m
+Test and build	Test and build	2026-10-20T02:07:01.7349909Z ^[[2m   Start at ^[[22m 02:07:01
+Test and build	Test and build	2026-10-20T02:07:01.7350911Z ^[[2m   Duration ^[[22m 224ms^[[2m (transform 34ms, setup 0ms, import 76ms, tests 22ms, environment 0ms)^[[22m
+Test and build	Test and build	2026-10-20T02:07:01.7352245Z 
+Test and build	Test and build	2026-10-20T02:07:01.7363401Z 
+Test and build	Test and build	2026-10-20T02:07:01.7402775Z ##[error]AssertionError: expected '<link rel="preload" as="image" href="…' to match /<h1\b[^>]*>Welcome to the auction/
+Test and build	Test and build	
+Test and build	Test and build	- Expected:
+Test and build	Test and build	/<h1\b[^>]*>Welcome to the auction/
+Test and build	Test and build	
+Test and build	Test and build	+ Received:
+Test and build	Test and build	"<link rel=\"preload\" as=\"image\" href=\"/next.svg\"/><div class=\"flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black\"><main class=\"flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start\"><img alt=\"Next.js logo\" width=\"100\" height=\"20\" decoding=\"async\" data-nimg=\"1\" class=\"dark:invert h-5 w-[100px]\" style=\"color:transparent\" src=\"/next.svg\"/><div class=\"flex flex-col items-center gap-6 text-center sm:items-start sm:text-left\"><h1 class=\"max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50\">To get started, edit the <code class=\"rounded bg-black/[.06] px-1.5 py-0.5 font-mono text-[0.9em] dark:bg-white/[.08]\">page.tsx</code> file.</h1><p class=\"max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400\">Looking for a starting point or more instructions? Head over to <a href=\"https://vercel.com/templates?framework=next.js&amp;utm_source=create-next-app&amp;utm_medium=appdir-template-tw&amp;utm_campaign=create-next-app\" class=\"font-medium text-zinc-950 dark:text-zinc-50\">Templates</a> or the <a href=\"https://nextjs.org/learn?utm_source=create-next-app&amp;utm_medium=appdir-template-tw&amp;utm_campaign=create-next-app\" class=\"font-medium text-zinc-950 dark:text-zinc-50\">searching</a> center.</p></div><div class=\"flex flex-col gap-4 text-base font-medium sm:flex-row\"><a class=\"flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]\" href=\"https://vercel.com/new?utm_source=create-next-app&amp;utm_medium=appdir-template-tw&amp;utm_campaign=create-next-app\" target=\"_blank\" rel=\"noopener noreferrer\"><img alt=\"Vercel logomark\" loading=\"lazy\" width=\"16\" height=\"14\" decoding=\"async\" data-nimg=\"1\" class=\"dark:invert h-[14px] w-4\" style=\"color:transparent\" src=\"/vercel.svg\"/>Deploy</a><a class=\"flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]\" href=\"https://nextjs.org/docs?utm_source=create-next-app&amp;utm_medium=appdir-template-tw&amp;utm_campaign=create-next-app\" target=\"_blank\" rel=\"noopener noreferrer\">Documentation</a></div></main></div>"
+Test and build	Test and build	
+Test and build	Test and build	 ❯ tests/page.test.tsx:15:18
+Test and build	Test and build	
+Test and build	Test and build	
+Test and build	Test and build	2026-10-20T02:07:01.7554303Z ##[error]Process completed with exit code 1.
+Test and build	Post Checkout	﻿2026-10-20T02:07:01.7694877Z Post job cleanup.
+Test and build	Post Checkout	2026-10-20T02:07:01.8533849Z [command]/usr/bin/git version
+Test and build	Post Checkout	2026-10-20T02:07:01.8580206Z git version 2.55.0
+Test and build	Post Checkout	2026-10-20T02:07:01.8628398Z Temporarily overriding HOME='/home/runner/work/_temp/ef118ac1-a9ad-4f32-8966-1abbf6c28a96' before making global git config changes
+Test and build	Post Checkout	2026-10-20T02:07:01.8630254Z Adding repository directory to the temporary git global config as a safe directory
+Test and build	Post Checkout	2026-10-20T02:07:01.8635984Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/my-first-project-/my-first-project-
+Test and build	Post Checkout	2026-10-20T02:07:01.8674108Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Test and build	Post Checkout	2026-10-20T02:07:01.8707989Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Test and build	Post Checkout	2026-10-20T02:07:01.8923872Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Test and build	Post Checkout	2026-10-20T02:07:01.8951065Z http.https://github.com/.extraheader
+Test and build	Post Checkout	2026-10-20T02:07:01.8963742Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+Test and build	Post Checkout	2026-10-20T02:07:01.8999051Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Test and build	Post Checkout	2026-10-20T02:07:01.9228202Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Test and build	Post Checkout	2026-10-20T02:07:01.9264230Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Test and build	Complete job	﻿2026-10-20T02:07:01.9636671Z Cleaning up orphan processes
+Test and build	Complete job	2026-10-20T02:07:01.9853094Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4, actions/setup-node@v4. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/

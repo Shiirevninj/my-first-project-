@@ -20,7 +20,19 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+## Tests and CI
+
+From `code/auction`, run:
+
+```bash
+npm ci
+npm test
+npm run build
+```
+
+`npm test` runs five Vitest checks against the rendered homepage and exits after one run. The repository's GitHub Actions workflow runs these commands on pushes and pull requests using Node.js 24. See the [Lab 7 evidence and explanation](../../Lab/lab7-ci/README.md).
+
+## Next.js Resources
 
 To learn more about Next.js, take a look at the following resources:
 
