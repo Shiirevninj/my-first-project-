@@ -12,7 +12,7 @@ describe("Home page", () => {
   it("renders the getting started heading", () => {
     const html = renderToStaticMarkup(<Home />);
 
-    expect(html).toMatch(/<h1\b[^>]*>Welcome to the auction/);
+    expect(html).toMatch(/<h1\b[^>]*>To get started, edit the /);
     expect(html).toContain("page.tsx");
   });
 
